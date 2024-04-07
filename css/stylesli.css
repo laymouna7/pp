@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/4.gif'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    background-color: #add8e6; /* Light blue container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #333; /* Dark gray text */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4682b4; /* Steel blue button */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #357ebd; /* Darker shade on hover */
+}
+#home-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00cccc; 
+    border: none;
+    border-radius: 5px;
+    color: #fff; 
+    cursor: pointer;
+    position: absolute; 
+    top: 0;
+    left: 0;
+}
+
+#home-button:hover {
+    background-color: #357ebd; 
+}
+h2{
+    color: whitesmoke;
+}
