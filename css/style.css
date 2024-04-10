@@ -2,9 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Vidaloka);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-/* ---------------------------------------------------------------------------- */
-/* ------------------------------------Reset----------------------------------- */
-/* ---------------------------------------------------------------------------- */
+
 a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
 mark, rp, rt, ruby, summary, time {display:inline;}
@@ -60,9 +58,7 @@ hr.line { margin: 10px 0; padding: 0; max-width: 90px;border: 0; border-top: sol
 .uppercase{text-transform: uppercase;}
 .widget-title{font-weight: 500;text-transform: uppercase;line-height: 1.38;margin-bottom: 20px;font-size: 14px;color: #8a8c8e;}
 ul.list-inline li{display: inline-block;}
-/* ---------------------------------------------------------------------------- */
-/* ------------------------------------Html-Body------------------------------- */
-/* ---------------------------------------------------------------------------- */
+
 html, body {width:100%; padding:0; margin:0;}
 body {font: 15px/25px Arial;font-family: Vidaloka,serif;background:#E7E9EB;color: #8a8c8e;}
 body .wrap-body{}
@@ -71,17 +67,11 @@ body .wrap-body{}
 	body{padding: 0;}
 }
 
-/* ---------------------------------------------------------------------------- */
-/* -------------------------------------Header--------------------------------- */
-/* ---------------------------------------------------------------------------- */
 header{}
 .header-banner {background:#01BAFD;color: #fff;font-weight: bold;letter-spacing: 1px;}
 .header-banner .header-text{padding: 70px 30px 60px;}
 .header-banner .header-text h1{color: #fff;font-size: 42px;text-transform: uppercase;}
 .header-banner .header-text p{font-size: 18px;}
-/* ---------------------------------------------------------------------------- */
-/* -------------------------------------Container------------------------------ */
-/* ---------------------------------------------------------------------------- */
 .home-page{}
 .single-page{}
 .archive-page{}
@@ -90,7 +80,7 @@ header{}
 #container {}
 #container .wrap-container{background: #ffffff;}
 
-/* ---content-box--- */
+
 .content-box {}
 .content-box .wrap-box {padding: 70px 60px; position: relative;}
 .content-box .header { margin: 20px 0 50px;}
@@ -157,7 +147,7 @@ header{}
 .content-box.box-6  .r-slidebar .post:last-child {border-bottom: none;}
 
 
-/* ---MainContent-Article--- */
+
 #main-content{}
 #main-content .wrap-content{padding: 0 0 50px;}
 
@@ -185,9 +175,7 @@ article .info a:hover{ text-decoration: underline;}
 	.archive-page .zerogrid .col-1-2{width:100% !important;}
 }
 
-/* ---------------------------------------------------------------------------- */
-/* -------------------------------------Footer--------------------------------- */
-/* ---------------------------------------------------------------------------- */
+
 footer{background: #1A1C1E;font-size: 14px;}
 
 footer .wrap-footer{padding: 70px 60px;}
@@ -218,9 +206,7 @@ footer .col-footer-3 a:hover{color:#01BAFD;}
 	.copyright ul.quick-link{float: none;margin-top: 10px;}
 }
 
-/* ---------------------------------------------------------------------------- */
-/* -------------------------------------Contact-------------------------------- */
-/* ---------------------------------------------------------------------------- */
+
 .contact h3{margin-left: 30px;}
 #contact_form {padding:0px 25px;}
 
@@ -233,9 +219,7 @@ textarea {display:block;width:100%;height:200px;background-color:#F3F3F3; color:
 #ff .sendButton {cursor:pointer;background-color:#01BAFD;width:35%;color:#ffffff;border: none;}
 #ff .sendButton:hover {background-color:#000;}
 
-/* ---------------------------------------------------------------------------- */
-/* ----------------------------------Portfolio--------------------------------- */
-/* ---------------------------------------------------------------------------- */
+
 .portfolio-box {display: block;position: relative;margin: 0 auto;max-width: 350px;}
 .portfolio-box::before {box-shadow: 0 -200px 200px -100px rgba(69, 69, 69, 0.75) inset;content: "";height: 100%;position: absolute;width: 100%;}
 .portfolio-box .portfolio-box-caption {display: block;position: absolute;bottom: 0;width: 100%;height: 100%;max-height:370px;max-width:370px;text-align: center;color: #fff;opacity: 0;background: rgba(1, 186, 253,.8);-webkit-transition: all .35s;-moz-transition: all .35s;transition: all .35s;}
@@ -256,17 +240,13 @@ textarea {display:block;width:100%;height:200px;background-color:#F3F3F3; color:
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-social{display: none;}
 }
 
-/* ---------------------------------------------------------------------------- */
-/* -------------------------------------Button--------------------------------- */
-/* ---------------------------------------------------------------------------- */
+
 .button{background-color: #333;border-radius: 4px; padding: 10px 15px;color: #fff;margin-top: 10px;display:inline-block;}
 .button:hover{background-color: #eee;color: #333;}
 
 a.button-header{padding: 15px 30px;font-size: 19px;margin-top: 30px;background: transparent;border: 2px solid #fff;border-radius: 0;}
 a.button-header:hover{text-decoration: none;background: #fff;color: #01BAFD;}
-/* ---------------------------------------------------------------------------- */
-/* ------------------------------------Crumbs---------------------------------- */
-/* ---------------------------------------------------------------------------- */
+
 .crumbs {-webkit-box-shadow: 0px 25px 18px -26px rgba(0,0,0,0.75);-moz-box-shadow: 0px 25px 18px -26px rgba(0,0,0,0.75);box-shadow: 0px 25px 18px -26px rgba(0,0,0,0.75);padding:15px 0 15px 30px;}
 .crumbs ul {list-style: none;display: inline-table;}
 .crumbs ul li {display: inline;}
@@ -280,6 +260,4 @@ a.button-header:hover{text-decoration: none;background: #fff;color: #01BAFD;}
 .crumbs ul li a:hover {background: #222;color: #fff;}
 .crumbs ul li a:hover:after {border-left-color: #222;}
 
-/* ---------------------------------------------------------------------------- */
-/* ----------------------------------Responsive-------------------------------- */
-/* ---------------------------------------------------------------------------- */
+

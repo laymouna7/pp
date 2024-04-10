@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #afeeee; /* Turquoise */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #87cefa; /* Pastel Blue */
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #87ceeb; /* Sky Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4682b4; /* Steel Blue */
+}
+
+.calendar {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.day {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #87cefa; /* Pastel Blue */
+}
+
+.entry {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #afeeee; /* Turquoise */
+}
+/* Your existing styles */
+
+.day {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #87cefa; /* Pastel Blue */
+}
+
+.entry {
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #afeeee; /* Turquoise */
+}
+
+.today {
+    background-color: #4682b4; /* Steel Blue */
+    color: #fff;
+}
